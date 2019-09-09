@@ -1,0 +1,122 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #222831;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lacquer', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Lacquer', sans-serif;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #fff;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* BUTTON STYLING */
+.button {
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid #3498db;
+  background: none;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-family: 'Lacquer', sans-serif;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main file */
+.main-heading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+}
+
+.box h2 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box input[type="text"], .box input[type="text"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type="text"]:focus, .box input[type="text"]:focus {
+  width: 280px;
+  border-color: #2ecc71
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background: #2ecc71;
+}
